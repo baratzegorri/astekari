@@ -1,4 +1,4 @@
 title: El meu blog
 description: Blog personal creat amb Jekyll i GitHub Pages
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 markdown: kramdown
