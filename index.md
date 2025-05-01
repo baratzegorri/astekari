@@ -1,3 +1,10 @@
-# Benvinguts al meu blog!
+---
+layout: default
+title: Inici
+---
 
-Aquest és el meu primer post amb Jekyll i GitHub Pages.
+# Benvinguts al meu blog
+
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }}) ({{ post.date | date: "%d-%m-%Y" }})
+{% endfor %}
